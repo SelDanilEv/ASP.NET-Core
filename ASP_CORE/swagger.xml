@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASP_CORE</name>
+    </assembly>
+    <members>
+        <member name="M:ASP_CORE.Controllers.UserController.Add(ASP_CORE.Dto.UserDto)">
+            <summary>
+            Add new user blalbabla. The id will be set automatically
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Controllers.UserController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Controllers.UserController.Put(ASP_CORE.Dto.UserDto)">
+            <summary>
+            Set value to xml tytytytytyt
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Controllers.UserController.DeleteById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.Id">
+            <summary>ID</summary>
+            <example></example>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.LastName">
+            <summary>LastName</summary>
+            <example>Selitsky</example>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.FirstName">
+            <summary>FirstName</summary>
+            <example>Danil</example>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.Email">
+            <summary>Email</summary>
+            <example>danil@dan.com</example>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.Password">
+            <summary>Password</summary>
+            <example>123qweASD</example>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.Status">
+            <summary>status</summary>
+            <example>active|passive</example>
+        </member>
+        <member name="P:ASP_CORE.Dto.UserDto.Role">
+            <summary>role</summary>
+            <example>admin|customer|HR</example>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.#ctor(ASP_CORE.Repository.DBcontext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.AddUser(ASP_CORE.Model.User)">
+            <summary>
+            Add user
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.DeleteUserById(System.Int32)">
+            <summary>
+            Delete user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.GetAll">
+            <summary>
+            Get all users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.GetUserById(System.Int32)">
+            <summary>
+            Get user by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.UpdateUserById(ASP_CORE.Model.User)">
+            <summary>
+            Update user
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Repository.UserRepository.GetUserByEmail(System.String)">
+            <summary>
+            Get by email
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Services.UserService.UserService.AddUser(ASP_CORE.Model.User)">
+            <summary>
+            Add user
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_CORE.Services.UserService.UserService.DeleteUserById(System.Int32)">
+            <summary>
+            Delete user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -14,12 +14,13 @@ namespace Personnel_App.Controllers
     public class EmployeeController : Controller
     {
         private readonly IConfiguration _config;
-        private static EmployeeRepository _repository;
+        private static IEmployeeRepository _repository;
 
         public EmployeeController(IConfiguration config)
         {
             _config = config;
-            _repository = new EmployeeRepository(_config.GetValue<string>("ConnectionStrings:DefaultConnection"));
+            //_repository = new EmployeeRepository(_config.GetValue<string>("ConnectionStrings:DefaultConnection"));
+            _repository = new LiteEmployeeRepository(_config.GetValue<string>("ConnectionStrings:LiteConnection"));
         }
 
         public async Task<ActionResult> Index()
